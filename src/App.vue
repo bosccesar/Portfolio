@@ -1,19 +1,25 @@
 <template>
   <div id="app">
-    <HelloWorld/>
-    <HeaderWelcome/>
+    <Header/>
+    <NavBarLeft/>
+    <NavBarRight/>
+    <Body/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-import HeaderWelcome from './components/HeaderWelcome'
+import NavBarLeft from './components/NavBarLeft'
+import NavBarRight from './components/NavBarRight'
+import Header from './components/Header'
+import Body from './components/Body'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    HeaderWelcome
+    Header,
+    NavBarLeft,
+    NavBarRight,
+    Body
   }
 }
 </script>
@@ -25,6 +31,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #87CEEB;
 }
 </style>

@@ -1,28 +1,16 @@
 <template>
     <div>
-        <div>
-            <a href="#">{{ fullname }}</a>
-        </div>
-        <div>
-            <a href="#">{{ title }}</a>
-        </div>
+        <h1>{{ msg }}</h1>
     </div>
 </template>
 
 <script>
 
 module.exports = {
-  name: 'HeaderWelcome',
+  name: 'Body',
   data: function () {
     return {
-      title: 'Portfolio projets personnels de jeux vidéos',
-      lastname: 'BOSC',
-      firstname: 'CESAR'
-    }
-  },
-  computed: {
-    fullname: function () {
-      return this.lastname + ' ' + this.firstname
+      msg: 'Description'
     }
   }
 }
@@ -32,6 +20,7 @@ module.exports = {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  margin-top: 40%;
 }
 
 ul {

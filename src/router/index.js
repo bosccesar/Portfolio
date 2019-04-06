@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // import Admin from '@/components/pages/Admin'
-import HeaderWelcome from '@/components/HeaderWelcome'
-// import HeaderAdmin from '@/components/HeaderAdmin'
+import Header from '@/components/Header'
+import NavBarLeft from '@/components/NavBarLeft'
+import NavBarRight from '@/components/NavBarRight'
+import Body from '@/components/Body'
 
 Vue.use(Router)
 
@@ -14,7 +16,10 @@ export default new Router({
       // which will be rendered into <router-view>s with corresponding names.
       name: 'Welcome',
       components: {
-        headerWelcome: HeaderWelcome
+        Header: Header,
+        NavBarLeft: NavBarLeft,
+        NavBarRight: NavBarRight,
+        Body: Body
       }
     },
     {
