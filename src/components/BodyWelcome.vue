@@ -7,7 +7,7 @@
 <script>
 
 module.exports = {
-  name: 'Body',
+  name: 'bodyWelcome',
   data: function () {
     return {
       msg: 'Description'
@@ -20,7 +20,7 @@ module.exports = {
 <style scoped>
 h1, h2 {
   font-weight: normal;
-  margin-top: 40%;
+  margin-top: 5%;
 }
 
 ul {

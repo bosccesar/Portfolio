@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: 'NavBarBeside',
+  name: 'navBarBeside',
   data () {
     return {
       msg: 'Développement informatique'
