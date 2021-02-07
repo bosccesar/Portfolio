@@ -20,7 +20,6 @@ module.exports = {
 <style scoped>
 h1, h2 {
   font-weight: normal;
-  margin-top: 5%;
 }
 
 ul {
